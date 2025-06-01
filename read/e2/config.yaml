@@ -1,0 +1,6 @@
+baseline:
+  csv_path: C:/Users/ktrua/source/repos/facemesh/data/read/e2/e2-baseline.csv
+  time_value: 0
+last_frame:
+  csv_path: C:/Users/ktrua/source/repos/facemesh/data/read/e2/e2-session8.csv
+  time_value: 20

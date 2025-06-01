@@ -1,0 +1,283 @@
+Participant Number,"Which session number is this for you?
+",Session Type,"Session experience (1-Low, 5-High)
+.Stress level","Session experience (1-Low, 5-High)
+.Attention","Session experience (1-Low, 5-High)
+.Robot movement predictability","Session experience (1-Low, 5-High)
+.Excitement","What caused stress for you?
+","How mentally demanding was the task?
+","How hurried or rushed was the pace of the task?
+","How hard did you have to work to accomplish your level of performance?
+","How insecure, discouraged, irritated, stressed and annoyed were you?
+","How successful were you in accomplishing what you needed to do? (1-Failure, 20-Perfect)
+"
+e1,1,a,1,2,5,1,The cameras;,1,1,1,4,20
+e1,2,e,2,3,3,2,The amount of blocks;The cameras;,3,3,3,2,19
+e1,3,g,1,2,4,2,Nothing caused stress;,2,4,3,3,20
+e1,4,h,3,5,4,5,Speed of robot(s);,10,15,8,10,19
+e1,5,d,3,4,4,3,Nothing caused stress;,4,5,5,3,20
+e1,6,c,3,3,5,3,Nothing caused stress;,4,4,3,7,20
+e1,7,b,2,2,5,2,Nothing caused stress;,3,3,3,5,20
+e1,8,f,3,4,4,3,Nothing caused stress;,4,5,3,7,20
+,,,,,,,,,,,,
+e2,1,f,1,3,4,2,Nothing caused stress,3,5,1,1,20
+e2,2,b,1,4,5,1,Nothing caused stress,1,1,1,1,20
+e2,3,a ,1,4,5,1,Nothing caused stress,1,1,1,1,20
+e2,4,c,1,4,5,1,Nothing caused stress,1,1,1,1,20
+e2,5,d,1,5,5,1,Nothing caused stress,3,3,2,1,20
+e2,6,h,1,5,4,1,Nothing caused stress,5,5,4,1,20
+e2,7,g,1,4,5,1,Nothing caused stress,1,1,2,1,20
+e2,8,e,1,5,5,1,Nothing caused stress,2,2,1,1,20
+,,,,,,,,,,,,
+e3,2,b,1,5,5,2,Nothing caused stress;,1,1,1,1,20
+e3,3,f,1,5,5,1,The amount of blocks;,3,5,5,1,20
+e3,4,h ,1,5,5,1,The amount of blocks;,7,8,8,1,20
+e3,5,c,1,5,5,1,Nothing caused stress;,4,1,1,1,20
+e3,6,a ,1,5,5,1,Nothing caused stress;,1,1,1,1,20
+e3,7,d,1,5,5,1,The amount of blocks;,2,2,2,1,20
+e3,8,e ,1,5,5,1,The amount of blocks;,6,5,4,1,20
+,,,,,,,,,,,,
+e4,1,h,4,4,4,4,The sound of the robot(s);Speed of robot(s);The amount of blocks;,13,18,16,17,19
+e4,2,c,2,3,5,3,The sound of the robot(s);Sound of the lego blocks;,10,9,9,6,20
+e4,3,e,3,3,4,2,Speed of robot(s);Predictability of robot(s);The sound of the robot(s);Sound of the lego blocks;,13,10,12,9,19
+e4,4,d,2,2,4,2,The sound of the robot(s);Speed of robot(s);Predictability of robot(s);,6,7,5,6,20
+e4,5,b,2,2,4,2,The sound of the robot(s);Speed of robot(s);,3,4,4,5,20
+e4,6,a,1,2,5,2,Speed of robot(s);The sound of the robot(s);Sound of the lego blocks;,2,4,3,4,20
+e4,7,g,2,2,5,3,The sound of the robot(s);Sound of the lego blocks;,6,7,3,6,20
+e4,8,f,3,3,3,3,Speed of robot(s);The sound of the robot(s);Sound of the lego blocks;The amount of blocks;The cameras;,8,8,6,5,20
+,,,,,,,,,,,,
+e5,1,c,2,3,4,5,Speed of robot(s);,9,15,5,1,20
+e5,2,e,2,4,3,5,Speed of robot(s);,10,17,7,4,20
+e5,3,f,3,5,5,5,Speed of robot(s);,13,18,13,15,19
+e5,4,h,4,5,5,5,Speed of robot(s);,17,18,10,16,19
+e5,5,b,1,2,5,3,Speed of robot(s);,1,1,1,3,20
+e5,6,d,2,5,5,4,Speed of robot(s);,1,5,4,9,20
+e5,7,g,1,3,5,3,Speed of robot(s);,4,1,4,1,20
+e5,8,a,1,2,5,2,Speed of robot(s);,1,1,1,2,20
+,,,,,,,,,,,,
+e6,1,a ,2,4,5,3,Unfamiliar environment / people;,Not at all,Obnoxiously slow,Trivial effort,Slightly annoyed at the slow pacing,20
+e6,2,f,2,4,4,3,Predictability of robot(s);Keeping track of what block it was attempting to pull in case of a mis-grab so I knew what piece to replace.  ;,10,12,7,3,17
+e6,3,e ,3,4,3,4,Predictability of robot(s);,9,10,8,3,19
+e6,4,h ,3,4,2,3,Robots not working as expected;,9,9,12,5,18
+e6,5,b,1,3,4,1,Speed of robot(s);,2,1,3,5,20
+e6,6,c,2,4,4,3,Nothing caused stress;,3,6,5,3,20
+e6,7,d,2,4,4,2,Nothing caused stress;,3,3,4,2,20
+e6,8,g ,2,4,4,2,Nothing caused stress;,3,3,3,2,20
+,,,,,,,,,,,,
+e7,1,d,1,4,5,4,Nothing caused stress;,3,3,3,1,19
+e7,2,a,1,3,5,4,Nothing caused stress;,2,2,2,2,19
+e7,3,c,1,4,5,4,Nothing caused stress;,2,3,2,2,19
+e7,4,g,1,4,4,4,Nothing caused stress;,4,3,4,2,18
+e7,5,e,2,2,2,4,Nothing caused stress;,5,6,6,3,17
+e7,6,b,2,4,5,3,Speed shift from fast to slow;,2,2,2,4,18
+e7,7,h,2,5,4,5,Predictability of robot(s);,12,10,11,3,17
+e7,8,f,3,4,3,4,Predictability of robot(s);Speed Shift from the previous session;,9,10,9,5,16
+,,,,,,,,,,,,
+e8,1,b,2,3,4,3,Sound of the lego blocks;,1,2,1,5,18
+e8,2,g ,2,3,5,4,The wristband;,1,1,1,3,18
+e8,3,c,1,3,5,5,Nothing caused stress;,1,5,1,1,19
+e8,4,e ,1,3,4,4,Nothing caused stress;,3,6,4,7,18
+e8,5,a ,1,3,3,3,Predictability of robot(s);,1,2,3,8,18
+e8,6,d,2,3,2,3,Predictability of robot(s);,3,4,6,9,18
+e8,7,h ,5,4,2,3,Predictability of robot(s);,15,17,18,18,15
+e8,8,f,2,3,3,4,Predictability of robot(s);Speed of robot(s);,6,8,8,10,18
+,,,,,,,,,,,,
+e9,2,a ,1,5,5,3,Nothing caused stress;,2,2,2,1,20
+e9,3,d,1,4,5,4,Nothing caused stress;,2,2,3,2,20
+e9,4,e ,1,5,5,4,Nothing caused stress;,3,2,3,2,20
+e9,5,c,2,3,5,4,"face itches, probably phantom because you said don't touch my face for the camera and my brain wants me to anyways;",2,2,3,4,20
+e9,6,b,1,4,5,3,Nothing caused stress;,2,2,2,2,20
+e9,7,f,1,4,5,4,Nothing caused stress;,3,2,2,2,20
+e9,8,g ,2,3,5,4,thinking about lunch/hungry;,2,1,2,2,20
+,,,,,,,,,,,,
+e10,1,h,2,4,4,4,Speed of robot(s);Sound of the lego blocks;The sound of the robot(s);The amount of blocks;,9,10,9,8,19
+e10,2,g,1,3,5,4,Sound of the lego blocks;The sound of the robot(s);,6,7,7,9,19
+e10,3,b,1,2,5,2,Sound of the lego blocks;,5,5,7,3,20
+e10,4,f,3,4,3,4,Speed of robot(s);The sound of the robot(s);The amount of blocks;Predictability of robot(s);,10,10,10,6,20
+e10,5,e,4,2,3,4,Speed of robot(s);Predictability of robot(s);The amount of blocks;Sound of the lego blocks;,12,13,10,9,19
+e10,6,d,3,4,5,4,Speed of robot(s);Proximity to robot(s);The sound of the robot(s);The amount of blocks;,10,10,9,8,20
+e10,7,c,4,4,4,4,Speed of robot(s);The sound of the robot(s);The amount of blocks;,8,10,9,8,20
+e10,8,a,1,2,5,2,Nothing caused stress;,4,4,6,2,20
+,,,,,,,,,,,,
+e11,1,a,1,3,5,2,Nothing caused stress;,1,1,1,1,20
+e11,2,d,2,4,4,4,Speed of robot(s);,2,3,2,1,20
+e11,3,b,1,2,5,2,Nothing caused stress;,1,1,1,1,20
+e11,4,c,1,3,5,3,Speed of robot(s);,2,2,1,1,20
+e11,5,g,2,3,5,3,knowing what block it missed;,2,1,2,1,20
+e11,6,e,3,5,4,3,Speed of robot(s);The amount of blocks;,3,3,3,1,20
+e11,7,f,2,4,4,3,Speed of robot(s);The amount of blocks;,2,2,2,1,20
+e11,8,h,2,5,3,3,Speed of robot(s);The amount of blocks;,3,3,2,1,20
+,,,,,,,,,,,,
+e12,1,f,1,5,5,3,Nothing caused stress;,1,1,1,1,18
+e12,2,e,1,5,5,3,Nothing caused stress;,1,1,1,1,1
+e12,3,g,1,5,5,3,Nothing caused stress;,1,1,1,1,20
+e12,4,a,1,5,5,3,Nothing caused stress;,1,1,1,1,20
+e12,5,h,1,5,5,3,Nothing caused stress;,5,5,5,5,18
+e12,6,d,1,5,5,3,Nothing caused stress;,1,1,1,1,20
+e12,7,c,1,5,5,3,Nothing caused stress;,1,1,1,1,20
+e12,8,b,1,5,5,3,Nothing caused stress;,1,1,1,1,20
+,,,,,,,,,,,,
+e13,2,a,1,4,2,4,Nothing caused stress;,2,2,2,6,20
+e13,3,f,3,3,1,4,Speed of robot(s);,8,9,7,4,20
+e13,4,c,1,3,3,3,Nothing caused stress;,3,3,2,4,20
+e13,5,h,2,5,3,5,Nothing caused stress;,12,4,10,1,20
+e13,6,e,4,5,3,3,"the robot missing blocks really messed up my flow. Hard to keep track of each block I need when that happens. Can't blame the robot though, it is doing its best :);",12,15,15,12,12
+e13,7,d,1,3,3,3,Nothing caused stress;,5,2,5,1,20
+e13,8,g,1,5,5,4,Nothing caused stress;,15,1,14,1,20
+,,,,,,,,,,,,
+e14,1,f,1,5,4,4,Nothing caused stress;,3,1,1,1,20
+e14,2,b,1,5,4,4,Nothing caused stress;,3,1,1,1,20
+e14,3,a,1,5,4,4,Nothing caused stress;,3,1,1,1,20
+e14,4,c,1,5,4,4,Nothing caused stress;,3,1,1,1,20
+e14,5,d,1,5,4,4,Nothing caused stress;,3,1,1,1,18
+e14,6,h,1,5,4,4,Nothing caused stress;,6,2,4,1,17
+e14,7,g,1,5,4,4,Nothing caused stress;,1,1,1,1,18
+e14,8,e,1,5,4,4,Nothing caused stress,1,1,1,1,19
+,,,,,,,,,,,,
+e15,1,d,1,5,5,5,The sound of the robot(s);The cameras,1,1,3,1,20
+e15,2,e,1,5,5,4,The sound of the robot(s);The cameras,3,2,4,1,17
+e15,3,b,1,4,5,4,The cameras,1,1,2,1,20
+e15,4,c,1,5,5,3,Nothing caused stress,2,2,1,1,20
+e15,5,g,1,4,5,3,Nothing caused stress,1,1,2,1,20
+e15,6,f,1,5,5,3,The sound of the robot(s),4,4,4,1,20
+e15,7,a,1,5,5,5,Nothing caused stress,2,1,2,1,20
+e15,8,h,1,5,5,5,The sound of the robot(s),5,5,5,1,19
+,,,,,,,,,,,,
+e16,1,a,1,5,5,3,Nothing caused stress,Low,Low,Low,Low,19
+e16,2,f,2,4,5,4,Speed of robot(s),Medium-low,Medium-low,low,low,20
+e16,3,b,1,1,5,1,Nothing caused stress,None,None,None,None,20
+e16,4,c,1,2,5,2,Nothing caused stress,4,6,3,1,20
+e16,5,h,2,5,5,5,The amount of blocks,10,12,10,1,18
+e16,6,e,2,5,4,4,Speed of robot(s);Robots missing bricks,12,14,14,5,15
+e16,7,d,1,2,5,2,Nothing caused stress,1,4,4,1,20
+e16,8,g,1,2,2,1,Nothing caused stress,2,1,5,3,12
+,,,,,,,,,,,,
+e17,1,b,3,3,4,1,because the slowness pf the robot it gave me time to think about everything I need to do today,3,2,3,5,20
+e17,2,g,2,3,2,3,Nothing caused stress,3,3,4,5,20
+e17,3,h,3,5,1,4,Speed of robot(s);Predictability of robot(s);The amount of blocks,10,10,7,7,18
+e17,4,c,2,4,4,2,Nothing caused stress,2,2,2,2,20
+e17,5,a,1,1,4,2,Nothing caused stress,2,2,2,7,20
+e17,6,f,2,4,3,3,Predictability of robot(s),5,5,3,2,18
+e17,7,d,2,4,3,3,Nothing caused stress,5,3,3,1,19
+e17,8,e,2,4,3,3,Nothing caused stress,3,3,3,3,19
+,,,,,,,,,,,,
+e18,1,c,1,5,5,3,The wristband,4,5,4,4,18
+e18,2,g,2,5,3,3,Predictability of robot(s),6,4,6,4,18
+e18,3,a,1,4,4,3,Nothing caused stress,4,5,6,2,18
+e18,4,h,3,4,5,4,Speed of robot(s);The amount of blocks,8,10,12,7,13
+e18,5,d,1,3,4,3,Sound of the lego blocks,4,6,5,3,17
+e18,6,f,2,4,4,3,Speed of robot(s),6,4,7,3,19
+e18,7,e,2,4,3,4,Predictability of robot(s);Sound of the lego blocks,5,4,6,5,19
+e18,8,b,1,4,5,3,Nothing caused stress,2,1,4,2,19
+,,,,,,,,,,,,
+e19,1,d,1,5,5,1,Nothing caused stress,1,10,5,5,20
+e19,2,h,2,5,5,1,Nothing caused stress,5,5,10,5,20
+e19,3,a,1,1,1,1,Nothing caused stress,1,1,1,1,20
+e19,4,b,1,1,5,1,Nothing caused stress,1,1,1,1,20
+e19,5,g,1,1,5,1,Nothing caused stress,1,1,1,1,20
+e19,6,e,1,1,5,1,Nothing caused stress,1,1,7,3,20
+e19,7,c,1,1,5,1,Nothing caused stress,1,1,1,1,20
+e19,8,f,1,1,5,1,Nothing caused stress,1,5,5,1,20
+,,,,,,,,,,,,
+e20,1,f,3,5,5,4,The amount of blocks;Sound of the lego blocks,3,5,3,2,20
+e20,2,e,3,5,4,3,The sound of the robot(s);Sound of the lego blocks;The amount of blocks,4,7,5,8,20
+e20,3,d,1,2,5,2,Nothing caused stress,2,1,2,1,20
+e20,4,c,1,2,5,3,Nothing caused stress,2,1,2,2,20
+e20,5,a,1,2,5,1,Nothing caused stress,1,1,1,9,20
+e20,6,b,1,2,4,1,Nothing caused stress,1,1,1,8,20
+e20,7,h,4,5,4,4,Speed of robot(s);Predictability of robot(s),6,10,7,8,20
+e20,8,g,1,4,4,3,Nothing caused stress,3,2,3,5,20
+,,,,,,,,,,,,
+e21,1,f,2,3,5,3,The sound of the robot(s);Shaking in the robots arm when swinging.,8,5,10,1,20
+e21,2,h,4,4,3,4,Predictability of robot(s);The sound of the robot(s),14,15,15,7,18
+e21,3,d,1,1,5,1,Nothing caused stress,2,1,3,1,20
+e21,4,e,2,3,5,3,The sound of the robot(s),6,4,6,1,20
+e21,5,b,1,1,5,1,Nothing caused stress,1,1,1,9 (irritated),20
+e21,6,c,2,2,5,2,Nothing caused stress,4,2,1,7 (irritated),20
+e21,7,g,2,3,5,3,Nothing caused stress,5,2,3,4,20
+e21,8,a,1,1,5,1,Nothing caused stress,1,1,1,1,20
+,,,,,,,,,,,,
+e22,1,e,1,4,3,5,When it looked like the robot was going to drop a block,"Not at all, Attention is needed tho","Not that rushed, however near the end the faster hand (left hand) began stacking up blocks",not that hard but it could be difficult for someone only using one hand,not at all,17
+e22,2,c,1,1,4,3,Nothing caused stress;It hit the basket,Not at all,wasn't rushed,"not hard, u could do this with one hand",not at all,20
+e22,3,b,1,1,5,1,Nothing caused stress,nope,nope,easy,nope,20
+e22,4,g,1,2,4,2,Nothing caused stress,nope,nope,easy,nope,19
+e22,5,h,1,5,3,3,Struggle to place on board,not that bad,it was pretty fast but manageable ,not too hard but u do have to pay attention,not at all,20
+e22,6,d,1,1,5,1,Nothing caused stress,not at all,easy,not hard,not at all,20
+e22,7,a,1,1,5,1,Nothing caused stress,not at all,not at all,not at all,not at all,20
+e22,8,f,1,1,5,1,Nothing caused stress,not at all,not at all,not at all,not at all,20
+,,,,,,,,,,,,
+e23,1,d,1,3,5,3,lack of hygiene;The sound of the robot(s),4,5,5,5,20
+e23,2,c,1,4,5,3,The sound of the robot(s),3,5,2,5,20
+e23,3,a,2,1,2,1,The sound of the robot(s);Predictability of robot(s),6,1,1,6,20
+e23,4,h,3,5,5,4,The amount of blocks,4,8,7,1,20
+e23,5,b,1,1,5,1,Nothing caused stress,3,1,1,1,20
+e23,6,f,2,4,4,3,The amount of blocks,5,6,3,2,20
+e23,7,g,2,2,4,3,Nothing caused stress,4,4,2,1,19
+e23,8,e,2,3,3,3,Speed of robot(s),5,4,3,1,20
+,,,,,,,,,,,,
+e24,1,c,2,1,1,1,Speed of robot(s),1,2,1,1,20
+e24,2,d,1,1,3,1,Speed of robot(s),1,3,1,7,20
+e24,3,b,1,1,4,1,Speed of robot(s),1,1,1,8,20
+e24,4,e,1,1,5,1,Speed of robot(s);robot malfunction ,1,1,2,9,20
+e24,5,a,1,2,5,1,Speed of robot(s),1,1,1,10,20
+e24,6,h,1,1,4,3,Nothing caused stress,1,5,3,1,20
+e24,7,f,2,1,3,1,Speed of robot(s),1,1,1,10,20
+e24,8,g,2,3,3,1,Speed of robot(s),1,1,1,10,20
+,,,,,,,,,,,,
+e26,1,c,1,4,3,1,The cameras,4,4,6,4,19
+e26,2,d,1,4,4,1,Speed of robot(s),4,3,4,7,19
+e26,3,b,1,3,5,1,Nothing caused stress,2,1,1,6,20
+e26,4,a,1,2,5,1,Nothing caused stress,2,1,1,8,20
+e26,5,h,2,4,2,2,Speed of robot(s),15,15,16,4,13
+e26,6,f,1,3,5,1,Nothing caused stress,4,2,3,1,20
+e26,7,e,2,3,1,1,the robot missing the blocks,10,8,10,5,16
+e26,8,g,1,2,5,1,Nothing caused stress,2,2,2,5,20
+,,,,,,,,,,,,
+e27,1,f,1,3,4,2,Nothing caused stress,7,3,8,2,20
+e27,2,c,1,2,5,2,Nothing caused stress,3,2,5,2,20
+e27,3,b,1,1,5,1,"Felt bad for robot b/c moving so slow (similar to empathy for elderly people). Wanted to help robot so it didn't fail or ""embarrass"" itself",1,1,2,1,20
+e27,4,d,2,3,4,3,Placement of blocks onto surface (sometimes issues aligning them which would slow me down),9,8,10,2,19
+e27,5,e,3,4,3,3,Having to make up for robot's mistakes (dropped blocks) while still focusing on task. Stressful prioritizing non-dominant hand.,13,11,15,3,18
+e27,6,g,3,2,5,2,Speed of robot(s);Predictability of robot(s),13,1,6,5,20
+e27,7,h,5,5,3,5,"Speed of robot(s);Sound of the lego blocks;The amount of blocks;Once I would fall behind (>1 lego in each basket), would lead to added stress",20,20,18,17,19
+e27,8,a,1,2,5,1,Robot dropping blocks and nearly missing basket,7,2,4,5,20
+,,,,,,,,,,,,
+e28,1,b,1,4,5,4,Speed of robot(s);The wristband,5,1,2,10,19
+e28,2,g,2,5,4,4,The amount of blocks;Predictability of robot(s),5,2,5,5,19
+e28,3,e,4,5,5,5,The amount of blocks,4,9,15,10,10
+e28,4,c,1,5,5,5,The amount of blocks,1,5,2,1,19
+e28,5,f,2,5,4,5,Predictability of robot(s);The amount of blocks,3,5,5,2,18
+e28,6,a,1,3,5,3,Nothing caused stress,1,1,1,5,20
+e28,7,d,1,3,5,3,Nothing caused stress,1,2,1,1,20
+e28,8,h,2,5,5,5,Speed of robot(s),4,15,5,2,19
+,,,,,,,,,,,,
+e29,1,f,3,4,4,4,Speed of robot(s);The sound of the robot(s),10,12,8,9,18
+e29,2,b,1,3,4,2,Nothing caused stress,3,1,1,1,20
+e29,3,d,2,3,3,4,Nothing caused stress,5,3,3,2,20
+e29,4,g,2,4,3,3,Nothing caused stress,4,7,6,1,18
+e29,5,a,1,2,2,3,Nothing caused stress,4,2,2,1,20
+e29,6,e,3,3,2,4,Speed of robot(s);Predictability of robot(s);The sound of the robot(s),7,9,10,3,18
+e29,7,h,4,4,3,4,Speed of robot(s);Predictability of robot(s);The sound of the robot(s);The amount of blocks,15,17,13,15,15
+e29,8,c,3,3,3,3,The sound of the robot(s);Speed of robot(s);Sound of the lego blocks,7,4,4,2,20
+,,,,,,,,,,,,
+e30,1,e,1,5,4,4,Nothing caused stress,1,1,1,1,20
+e30,2,d,1,5,5,3,Nothing caused stress,1,1,1,1,20
+e30,3,b,1,4,5,3,Nothing caused stress,1,1,1,1,20
+e30,4,c,1,3,5,3,Nothing caused stress,1,1,1,1,20
+e30,5,g,1,3,3,2,Nothing caused stress,1,1,1,1,20
+e30,6,f,1,2,4,1,Nothing caused stress,1,1,1,1,20
+e30,7,h,1,2,4,1,Nothing caused stress,1,1,1,1,20
+e30,8,a,1,2,4,1,Nothing caused stress,1,1,1,1,20
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
