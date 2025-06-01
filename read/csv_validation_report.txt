@@ -1,0 +1,24 @@
+CSV Validation and Standardization Report
+Generated: 2025-06-01 10:38:25
+================================================================================
+
+Total files processed: 158
+Files with issues: 9
+Files fixed: 29
+Files sorted: 0
+Test Names fixed: 26
+Subject Names fixed: 3
+Empty files found: 7
+
+Empty Files:
+  - .\e17\e17-session3.csv
+  - .\e17\e17-session4.csv
+  - .\e17\e17-session6.csv
+  - .\e17\e17-session7.csv
+  - .\e17\e17-session8.csv
+  - .\e20\e20-session2.csv
+  - .\e25\e25-session5.csv
+
+Fixes Applied:
+
+.\e17\e17-baseline.csv:
