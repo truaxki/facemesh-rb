@@ -25,7 +25,7 @@
 **Key Metrics to Emphasize:**
 - 65-94% accuracy across 18 participants
 - 8,000+ interaction frames analyzed
-- Real-time classification capability (100 frames/second)
+- Real-time classification capability (1 frame/second)
 - Individual expression fingerprinting for personalization
 
 ---
