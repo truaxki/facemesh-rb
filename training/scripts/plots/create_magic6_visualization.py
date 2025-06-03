@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-FaceMesh-RB: Magic 6 + Expanded 64 Landmark Visualization
+FaceMesh-RB: Alignment Landmarks + Expanded 64 Landmark Visualization
 Side-by-side comparison for HCI paper showing technical innovation
 
 Extracts frame 73 from e4-session8.csv and creates publication-ready figure
@@ -13,7 +13,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import sys
 from pathlib import Path
 
-# Magic 6 landmarks for stable rotation (from your research)
+# Alignment Landmarks landmarks for stable rotation (from your research)
 MAGIC_6 = [1, 2, 98, 327, 205, 425]
 
 # Facial clusters for expanded 64 landmarks (from facial_clusters.py)
@@ -51,7 +51,7 @@ def get_expanded_64_landmarks():
     """Extract the expanded 64 landmarks used in your research"""
     expanded_landmarks = set()
     
-    # Add Magic 6 (stable alignment)
+    # Add Alignment Landmarks (stable alignment)
     expanded_landmarks.update(MAGIC_6)
     
     # Add expression-sensitive regions
@@ -100,7 +100,7 @@ def create_side_by_side_visualization(landmarks_3d, output_file='magic6_innovati
     """
     Create side-by-side visualization for HCI paper
     Left: Raw MediaPipe landmarks (all 478 points)
-    Right: Magic 6 + Expanded 64 highlighted
+    Right: Alignment Landmarks + Expanded 64 highlighted
     """
     
     # Get expanded 64 landmarks
@@ -112,31 +112,32 @@ def create_side_by_side_visualization(landmarks_3d, output_file='magic6_innovati
     # Left subplot: Raw MediaPipe landmarks
     ax1 = fig.add_subplot(111, projection='3d')
     
-    # Plot all 478 landmarks in gray
-    ax1.scatter(landmarks_3d[:, 0], landmarks_3d[:, 1], landmarks_3d[:, 2], 
-               c='gray', s=8, alpha=0.8, label='All 478 landmarks')
+    # Create mask to exclude highlighted points
+    all_indices = set(range(478))
+    highlighted_indices = set(expanded_64)
+    background_indices = list(all_indices - highlighted_indices)
+    background_coords = landmarks_3d[background_indices]
+
+    ax1.scatter(background_coords[:, 0], background_coords[:, 1], background_coords[:, 2], 
+               c='gray', s=8, alpha=0.8, label='Other landmarks')
     
-    ax1.set_title('FaceMesh-RB: Magic 6 + Expanded 64 Innovation\n(Separation of alignment & expression)', 
-                  fontsize=14, fontweight='bold')
-    ax1.set_xlabel('X coordinate')
-    ax1.set_ylabel('Y coordinate') 
-    ax1.set_zlabel('Z coordinate (depth-scaled)')
+    ax1.set_title('Alignment Landmarks + Expression Features', fontsize=16, fontweight='bold')
     
-    # Highlight Magic 6 landmarks (stable rotation)
+    # Highlight Alignment Landmarks landmarks (stable rotation)
     magic_6_coords = landmarks_3d[MAGIC_6]
     ax1.scatter(magic_6_coords[:, 0], magic_6_coords[:, 1], magic_6_coords[:, 2],
-               c='red', s=50, alpha=0.9, label='Magic 6 (Stable Rotation)', edgecolors='darkred')
+               c='red', s=50, alpha=0.9, label='Alignment Landmarks', edgecolors='darkred')
 
     # Highlight Expanded 64 landmarks (expression detection)
     expanded_coords = landmarks_3d[expanded_64]
     ax1.scatter(expanded_coords[:, 0], expanded_coords[:, 1], expanded_coords[:, 2],
-               c='blue', s=20, alpha=0.8, label='Expanded 64 (Expression)', edgecolors='darkblue')
+               c='blue', s=20, alpha=0.8, label='Expression Features', edgecolors='darkblue')
 
     # Add legend
     ax1.legend(loc='upper right', fontsize=10)
     
-    # Set consistent viewing angles for both subplots
-    ax1.view_init(elev=20, azim=45)
+    # Set viewing angles
+    ax1.view_init(elev=10, azim=45)  # Nice 3D perspective instead of flat
     
     # Ensure same scale for both plots
     ax1.set_xlim(ax1.get_xlim())
@@ -144,13 +145,29 @@ def create_side_by_side_visualization(landmarks_3d, output_file='magic6_innovati
     ax1.set_zlim(ax1.get_zlim())
     
     # Add overall title
-    fig.suptitle('FaceMesh-RB: Technical Innovation for Agentic Systems\nFrame 73, Participant E4, Session 8', 
-                 fontsize=16, fontweight='bold', y=0.95)
+    fig.suptitle('FaceMesh: Landmark Selection for HCI Systems', 
+                 fontsize=18, fontweight='bold', y=0.95)
     
     # Adjust layout
     plt.tight_layout()
     plt.subplots_adjust(top=0.85)
     
+    # More selective removal
+    ax1.grid(False)
+    ax1.xaxis.pane.fill = False
+    ax1.yaxis.pane.fill = False
+    ax1.zaxis.pane.fill = False
+    ax1.xaxis.pane.set_edgecolor('white')
+    ax1.yaxis.pane.set_edgecolor('white') 
+    ax1.zaxis.pane.set_edgecolor('white')
+    
+    # ax1.set_title('A) Y-Z Plane View\n(Front perspective)', fontsize=14, fontweight='bold')
+    ax1.set_xlabel('X')
+    ax1.set_ylabel('Y') 
+    ax1.set_zlabel('Z')
+
+
+
     # Save high-resolution figure for paper
     plt.savefig(output_file, dpi=300, bbox_inches='tight', facecolor='white')
     print(f"Visualization saved as {output_file}")
@@ -162,7 +179,7 @@ def create_side_by_side_visualization(landmarks_3d, output_file='magic6_innovati
 
 def create_landmark_annotation_view(landmarks_3d, output_file='landmark_annotations.png'):
     """
-    Create annotated view showing specific Magic 6 landmark positions
+    Create annotated view showing specific Alignment Landmarks landmark positions
     Perfect for technical explanation in paper
     """
     fig = plt.figure(figsize=(12, 10))
@@ -172,7 +189,7 @@ def create_landmark_annotation_view(landmarks_3d, output_file='landmark_annotati
     ax.scatter(landmarks_3d[:, 0], landmarks_3d[:, 1], landmarks_3d[:, 2],
                c='lightgray', s=10, alpha=0.4)
     
-    # Magic 6 with annotations
+    # Alignment Landmarks with annotations
     magic_6_labels = {
         1: 'Nose Tip\n(Landmark 1)',
         2: 'Nose Bridge\n(Landmark 2)', 
@@ -192,7 +209,7 @@ def create_landmark_annotation_view(landmarks_3d, output_file='landmark_annotati
                magic_6_labels[landmark_idx],
                fontsize=9, ha='center', va='bottom')
     
-    ax.set_title('Magic 6 Landmarks: Stable Rotation Foundation\n"Separating Geometric Alignment from Expression Detection"',
+    ax.set_title('Alignment Landmarks Landmarks: Stable Rotation Foundation\n"Separating Geometric Alignment from Expression Detection"',
                  fontsize=14, fontweight='bold')
     ax.set_xlabel('X coordinate')
     ax.set_ylabel('Y coordinate')
@@ -200,6 +217,15 @@ def create_landmark_annotation_view(landmarks_3d, output_file='landmark_annotati
     
     # Set optimal viewing angle
     ax.view_init(elev=15, azim=60)
+    
+    # Remove grid and axes for clean visualization
+    ax.grid(False)
+    ax.xaxis.pane.fill = False
+    ax.yaxis.pane.fill = False
+    ax.zaxis.pane.fill = False
+    ax.xaxis.pane.set_edgecolor('white')
+    ax.yaxis.pane.set_edgecolor('white') 
+    ax.zaxis.pane.set_edgecolor('white')
     
     plt.tight_layout()
     plt.savefig(output_file, dpi=300, bbox_inches='tight', facecolor='white')
@@ -219,7 +245,7 @@ def main():
         # Extract landmark data for specified frame
         print("=" * 60)
         print("FaceMesh-RB Visualization Generator")
-        print("Creating Magic 6 + Expanded 64 visualization for HCI paper")
+        print("Creating Alignment Landmarks + Expanded 64 visualization for HCI paper")
         print("=" * 60)
         
         landmarks_3d, face_depth = extract_frame_landmarks(data_file, frame_number)
@@ -232,8 +258,8 @@ def main():
         print("\nGenerating side-by-side comparison...")
         main_fig = create_side_by_side_visualization(landmarks_3d, 'facemesh_rb_innovation.png')
         
-        # Create annotated Magic 6 view
-        print("\nGenerating annotated Magic 6 view...")
+        # Create annotated Alignment Landmarks view
+        print("\nGenerating annotated Alignment Landmarks view...")
         annotation_fig = create_landmark_annotation_view(landmarks_3d, 'magic6_annotations.png')
         
         # Print summary statistics
@@ -242,7 +268,7 @@ def main():
         print("VISUALIZATION SUMMARY")
         print("=" * 60)
         print(f"Total MediaPipe landmarks: 478")
-        print(f"Magic 6 (stable rotation): {len(MAGIC_6)} landmarks")
+        print(f"Alignment Landmarks: {len(MAGIC_6)} landmarks")
         print(f"Expanded 64 (expression): {len(expanded_64)} landmarks")
         print(f"Innovation: Separation of alignment vs expression detection")
         print(f"Application: Real-time feedback for agentic AI systems")
