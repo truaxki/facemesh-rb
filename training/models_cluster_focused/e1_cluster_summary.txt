@@ -1,0 +1,115 @@
+CLUSTER-FOCUSED TRAINING SUMMARY
+==================================================
+
+mouth_only:
+  session_type:
+    Clusters: ['mouth']
+    Features: 123
+    CV Accuracy: 0.299 ± 0.032
+  robot_predictability:
+    Clusters: ['mouth']
+    Features: 123
+    CV R²: -0.644 ± 0.481
+  attention:
+    Clusters: ['mouth']
+    Features: 123
+    CV R²: -2.468 ± 2.355
+
+eyes_only:
+  session_type:
+    Clusters: ['right_eye', 'left_eye']
+    Features: 372
+    CV Accuracy: 0.315 ± 0.013
+  robot_predictability:
+    Clusters: ['right_eye', 'left_eye']
+    Features: 372
+    CV R²: -0.664 ± 0.509
+  attention:
+    Clusters: ['right_eye', 'left_eye']
+    Features: 372
+    CV R²: -2.758 ± 2.569
+
+eyebrows_only:
+  session_type:
+    Clusters: ['eyebrows']
+    Features: 84
+    CV Accuracy: 0.284 ± 0.022
+  robot_predictability:
+    Clusters: ['eyebrows']
+    Features: 84
+    CV R²: -0.749 ± 0.555
+  attention:
+    Clusters: ['eyebrows']
+    Features: 84
+    CV R²: -2.848 ± 2.627
+
+nose_cheeks:
+  session_type:
+    Clusters: ['nose', 'cheeks']
+    Features: 18
+    CV Accuracy: 0.343 ± 0.019
+  robot_predictability:
+    Clusters: ['nose', 'cheeks']
+    Features: 18
+    CV R²: -0.655 ± 0.488
+  attention:
+    Clusters: ['nose', 'cheeks']
+    Features: 18
+    CV R²: -2.300 ± 2.257
+
+expression_smile:
+  session_type:
+    Clusters: ['mouth', 'cheeks']
+    Features: 129
+    CV Accuracy: 0.310 ± 0.011
+  robot_predictability:
+    Clusters: ['mouth', 'cheeks']
+    Features: 129
+    CV R²: -0.655 ± 0.489
+  attention:
+    Clusters: ['mouth', 'cheeks']
+    Features: 129
+    CV R²: -2.462 ± 2.374
+
+expression_surprise:
+  session_type:
+    Clusters: ['mouth', 'eyebrows', 'right_eye', 'left_eye']
+    Features: 579
+    CV Accuracy: 0.341 ± 0.018
+  robot_predictability:
+    Clusters: ['mouth', 'eyebrows', 'right_eye', 'left_eye']
+    Features: 579
+    CV R²: -0.571 ± 0.460
+  attention:
+    Clusters: ['mouth', 'eyebrows', 'right_eye', 'left_eye']
+    Features: 579
+    CV R²: -2.519 ± 2.427
+
+expression_concentration:
+  session_type:
+    Clusters: ['eyebrows', 'right_eye', 'left_eye']
+    Features: 456
+    CV Accuracy: 0.308 ± 0.002
+  robot_predictability:
+    Clusters: ['eyebrows', 'right_eye', 'left_eye']
+    Features: 456
+    CV R²: -0.639 ± 0.475
+  attention:
+    Clusters: ['eyebrows', 'right_eye', 'left_eye']
+    Features: 456
+    CV R²: -2.828 ± 2.632
+
+all_expression:
+  session_type:
+    Clusters: ['mouth', 'right_eye', 'left_eye', 'eyebrows', 'nose', 'cheeks']
+    Features: 597
+    CV Accuracy: 0.371 ± 0.024
+  robot_predictability:
+    Clusters: ['mouth', 'right_eye', 'left_eye', 'eyebrows', 'nose', 'cheeks']
+    Features: 597
+    CV R²: -0.599 ± 0.481
+  attention:
+    Clusters: ['mouth', 'right_eye', 'left_eye', 'eyebrows', 'nose', 'cheeks']
+    Features: 597
+    CV R²: -2.332 ± 2.276
+
